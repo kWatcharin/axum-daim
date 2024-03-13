@@ -1,12 +1,10 @@
 use axum::{
-  routing::get,
-  routing::post,
-  Router,
-  Json
+  routing::get, routing::post, Router, Json
 };
 use serde_json::{
   Value, json
 };
+
 
 pub fn router() -> Router {
   Router::new()
